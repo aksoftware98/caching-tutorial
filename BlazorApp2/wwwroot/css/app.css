@@ -62,3 +62,24 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+
+.rounded-01 {
+    border-radius: 1px
+}
+
+.rounded-02 {
+    border-radius: 2px
+}
+
+.rounded-03 {
+    border-radius: 3px
+}
+
+.rounded-medium {
+    border-radius: 10px
+}
+
+.raounded-full {
+    border-radius: 50%;
+}

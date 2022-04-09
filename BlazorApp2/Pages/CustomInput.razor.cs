@@ -45,5 +45,13 @@ namespace BlazorApp2.Pages
                                          .AddStyle("border-radius", "6px")
                                          .Build();
 
+        private string _inputClasses = new CssBuilder()
+                                        .AddClass("custom-input")
+                                        .AddClass("custom-input")
+                                        .AddClass("custom-input")
+                                        .AddClass("custom-input")
+                                        .AddClass("custom-input")
+                                        .Build();
+
     }
 }
