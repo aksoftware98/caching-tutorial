@@ -1,0 +1,12 @@
+﻿@if (!string.IsNullOrWhiteSpace(Label))
+{
+	<label>First name</label>
+
+}
+<input type="text" @bind-value="@Value" style="@_inputStyle" />
+@if (!string.IsNullOrWhiteSpace(Error))
+{
+	<p style="margin: 2px;color:red">@Error</p>
+
+}
+

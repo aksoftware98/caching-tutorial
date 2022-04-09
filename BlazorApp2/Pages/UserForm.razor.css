@@ -1,0 +1,8 @@
+﻿.test-input {
+    width: 100%; 
+    margin: 3px; 
+    border: 1px dashed black; 
+    border-radius: 3px;
+    display: block;
+    padding: 4px;
+}
